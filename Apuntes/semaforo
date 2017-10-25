@@ -1,0 +1,19 @@
+INITIAL
+tienes un contador con x de maximo
+
+los procesos van haciendo WAIT que decrementa el contador hasta que el contador llega a 0 y se quedan los procesos esperando
+
+cuando haces SIGNAL el proceso sale y devuelve la ficha al contador,
+si hay un proceso esperando (WAIT) cogera la ficha y entrara
+
+si no, la ficha se queda en el contador esperando a que llegue algun proceso
+
+WAIT: Preprotocolo
+SIGNAL: Postprotocolo
+
+
+
+Exclusion mutua se consigue iniciando el semaforo con 1 ficha y en exclusion
+mutua generalizada tienes un aforo (solo pueden entrar x) pero mas de 1 ficha
+
+

@@ -1,0 +1,19 @@
+este ejecuta la funcion y es un objeto de tipo funcion
+
+function Obrero(name){
+    this.name = name
+}
+
+prototype es un atributo que contiene la direccion de memoria de un objeto
+estara vacio hasta que no le demos algo
+
+Obrero.prototype.load = function(var q) {
+    this.q += q
+}
+
+y este crea el objeto ejecuta la funcion y cambia el this
+
+Obrero("Txema")
+var txema = new Obrero("Txema")
+
+txema.load(5)

@@ -1,0 +1,16 @@
+Todos los procesos deben acabar dando el turno de ejecucion al otro para evitar
+la inanicion
+
+si los dos quieren ejecutarse se ejecutara el proceso que tenga el turno
+
+si el primero no quiere ejecutarse cedera su turno al segundo
+
+La idea 1 nos pasamos un boli o tenemos un turno(mirar la variable turno)
+
+La idea 2 miro y si no hay nadie me meto dentro y levanto la mano como que 
+está ocupado
+
+La idea 3 es decir que voy y si hay alguien me espero con la mano levantada
+
+La idea 4 es decir que voy y si hay alguien le dejas pasar (bajas la mano)
+ y luego lo vuelves a levantar

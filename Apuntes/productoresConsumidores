@@ -1,0 +1,7 @@
+Siempre vas a tener camiones saliendo (SIGNAL) por lo que devuelven su ficha
+
+pero a la vez siempre vas a tener consumidores esperando (WAIT) y estos una
+vez entren no van a salir nunca por lo que se quedan su ficha, pero tambien
+siempre vas a tener camiones saliendo para tener fichas
+
+

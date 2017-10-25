@@ -1,0 +1,11 @@
+PROCESS Cliente(VAR Peticion : BOOLEAN; VAR x : INTEGER);
+	BEGIN
+		REPEAT
+			Peticion := TRUE;
+			WRITELN('Solicito Peticion x = ', x);
+			Peticion := FALSE;
+			WRITELN('Rescindo Peticion x = ', x);
+		FOREVER
+	END;
+
+

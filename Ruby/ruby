@@ -1,0 +1,18 @@
+Las variables de instancia  de ruby se escriben con @ delante y si tiene 2  @@ es una variable de clase
+
+Cuando llamas a una funcion en ruby no tienes porque poner los ()
+
+class Steward
+
+        def initialize(name)
+                @name = name
+        end
+
+        def greet(name)
+                puts ("Hellooou, Mr. #{name}, your personal stewart:")
+        end
+
+        def self.count
+                @@count
+        end
+end

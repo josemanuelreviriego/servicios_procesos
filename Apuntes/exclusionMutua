@@ -1,0 +1,15 @@
+PROCESS P;
+BEGIN
+	REPEAT
+		Preprotocolo; //Me paran
+		SeccionCritica; //Hace la accion
+		PostProtocolo; //Me dan permiso
+		SeccionNoCritica;
+	FOREVER
+END;
+
+//Requisitos:
+//Excluxion mutua
+//Ausencia de interbloqueo
+//Ausencia de retrasos innecesarios
+//Ausencia de inanicion, Todo proceso tiene que llegar en algun momento al micro
