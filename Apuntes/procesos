@@ -1,0 +1,23 @@
+se inicia con un proceso (INIT) ej:sistema de ventanas
+ese proceso se divide en 2 ej: 2 sistemas de ventanas
+el proceso padre sustituye al hijo por el proceso nuevo a ejecutar
+ej: se cambia el segundo proceso de ventanas por el proceso de abrir la
+terminal
+
+Los procesos hijos heredan los tubos del padre, va por prioridad si los
+tubos los esta usando el padre no podra usarlos el hijo
+
+hay grupos de procesos en el cual 1 es el jefe que tiene todos los permisos
+
+si pones las instrucciones entre parentesis (cd pepe) se crea un subproceso que realiza la instruccion, cuando se acaba la instruccion se cierra el
+subproceso
+
+job un proceso que se ejecuta en segundo plano
+job trabajo jobs trabajos de los procesos
+help jobs
+
+ctrl + z para detener un proceso
+
+fg es para mandar un proceso al primer plano y bg para mandarlo al segundo
+
+
