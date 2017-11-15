@@ -1,0 +1,15 @@
+Crear una tuberia
+
+#!/bin/bash/
+# Crear una tuberia anonima
+
+echo "hola" < tuberia.txt
+exec 4< tuberia.txt vuelca lo de tuberia.txt en el tubo numero 4
+unlink tuberia.txt solo le quita el nombre pero el contenido está linkado al nodo (inodo)
+
+sleep 7 duermes durante 7seg
+read -n 3 i <&4 lees 3 bytes y lo metes en el tubo numero 4 guardandolo en i
+
+exec 4<&- Para cerrar el tubo donde tenemos los datos
+
+echo $i

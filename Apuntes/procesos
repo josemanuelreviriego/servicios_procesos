@@ -20,4 +20,30 @@ ctrl + z para detener un proceso
 
 fg es para mandar un proceso al primer plano y bg para mandarlo al segundo
 
+ps -e -o pid,ppid,command | grep 3732
+
+pid es el identificador de proceso ppid es el identificador del proceso del padre
+
+command comando que ejecuta
+
+para matar un proceso se usa el pid kill 3732
+
+kill es la utilidad para mandarle mensajes a los procesos
+
+fork vale para hacer una mitosis(proceso hijo) y en ese proceso ejecutar otro programa (lanzar otro programa)
+Al poner un & detras nos ejecutara el programa en segundo plano como si hiciesemos ctrl + z
+
+Letras en el exec family:
+
+RESPECTO DE LOS ARGUMENTOS
+- v: varargs (array de argumentos)
+- l: lista de parámetros (como en el printf)
+
+- p o no p: buscar en el path actual, si no hay p le tendras que poner tu la ruta donde esta
+
+EN ENTORNOS
+Se puede pasa una lista de variables de entorno
+- e: Pasa las variables de entorno
+
+fgets estos son los parametros: 1 direccion donde lo quieres guardar 2 cuantos bytes quieres leer 3 fichero de donde lo quieras leer
 
