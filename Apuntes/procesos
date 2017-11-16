@@ -26,7 +26,7 @@ pid es el identificador de proceso ppid es el identificador del proceso del padr
 
 command comando que ejecuta
 
-para matar un proceso se usa el pid kill 3732
+para matar un proceso se usa el pid  Ej: kill 3732
 
 kill es la utilidad para mandarle mensajes a los procesos
 
