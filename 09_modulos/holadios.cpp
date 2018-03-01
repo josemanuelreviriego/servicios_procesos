@@ -18,7 +18,8 @@ void run(const char *mod, const char *funct)
        if(!modulo)
           salir("No se ha encontrado el modulo.");
 
-       fn = ( void (*)()  ) dlsym(modulo, funct); //que se meta en modulo y dentro de modulo busque greet
+       fn = ( void (*)()  ) dlsym(modulo, funct); //que se meta en modulo y dentro de modulo busque greet 
+       
 
        if(!fn)
          salir("No se ha encontrado el modulo.");
